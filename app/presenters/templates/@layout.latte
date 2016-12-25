@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<base href="{$basePath}/">
+
+	<title>{ifset title}{include title|striptags}{/ifset}</title>
+
+	<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+	<link rel="stylesheet" href="{$basePath}/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link href="{$basePath}/theme/css/owl-carousel/owl.carousel.css" rel="stylesheet" media="all">
+    <link href="{$basePath}/theme/css/owl-carousel/owl.theme.css" rel="stylesheet" media="all">
+    <link href="{$basePath}/theme/css/magnific-popup.css" type="text/css" rel="stylesheet" media="all"/>
+    <link href="{$basePath}/theme/css/font.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{$basePath}/theme/css/fontello.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{$basePath}/theme/css/base.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{$basePath}/theme/css/main.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+
+	<!--Wrapper-->
+    <div id="wrapper" class="margLTop  margLBottom">
+
+        <!--Container-->
+        <div class="container">
+            <div class="row ">
+                <!--Left content-->
+
+                <div class="col-md-3 nopr left-content">
+
+                    <!--Header-->
+                    <header id="header">
+
+                        <!--Main header-->
+                        <div class="main-header">
+
+                            <!--Profile image-->
+                            <figure class="img-profile">
+                                <img src="theme/img/profile.jpg" alt=""/>
+
+                            </figure>
+                            <!--End profile image-->
+
+
+                            <!--Main navigation-->
+                            <nav id="main-nav" class="main-nav clearfix tabbed">
+                                <ul>
+                                    <li n:class="$presenter->isLinkCurrent('CurriculumVitae:default') ? active">
+                                        <a href="{link CurriculumVitae:default}" n:class="$presenter->isLinkCurrent('CurriculumVitae:default') ? active"><i class="icon-user"></i>Personal Information</a></li>
+                                    <li n:class="$presenter->isLinkCurrent('CurriculumVitae:education') ? active">
+                                        <a href="{link CurriculumVitae:education}" n:class="$presenter->isLinkCurrent('CurriculumVitae:education') ? active"><i class="icon-graduation-cap"></i>Education</a></li>
+                                    <li n:class="$presenter->isLinkCurrent('CurriculumVitae:workExperience') ? active">
+                                        <a href="{link CurriculumVitae:workExperience}" n:class="$presenter->isLinkCurrent('CurriculumVitae:workExperience') ? active"><i class="icon-briefcase"></i>Work Experience</a></li>
+                                    <li n:class="$presenter->isLinkCurrent('CurriculumVitae:skills') ? active">
+                                        <a href="{link CurriculumVitae:skills}" n:class="$presenter->isLinkCurrent('CurriculumVitae:skills') ? active"><i class="icon-book"></i>Skills</a></li>
+                                    <li n:class="$presenter->isLinkCurrent('CurriculumVitae:about') ? active">
+                                        <a href="{link CurriculumVitae:about}" n:class="$presenter->isLinkCurrent('CurriculumVitae:about') ? active"><i class="icon-info"></i>Teaching and Rewards</a></li>
+                                </ul>
+                            </nav>
+                            <!--End main navigation-->
+
+
+                        </div>
+                        <!--End main header-->
+
+                        <div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
+                            <ul class="social">
+                                <li><a href="https://rs.linkedin.com/in/ajladzekovic" target="_blank"><i class="icon-linkedin"></i></a></li>
+                                <li><a href="https://github.com/miraai" target="_blank"><i class="icon-github"></i></a></li>
+                            </ul>
+
+                        </div>
+
+
+                    </header>
+                    <!--End  header-->
+
+                </div>
+                <!--End left content-->
+
+                <!--Right content-->
+                <div class="col-md-9 right-content">
+
+                    {include content}
+
+                </div>
+                <!--End right content-->
+
+            </div>
+            <!--End  row-->
+
+        </div>
+        <!--End  container-->
+
+    </div>
+    <!--End wrapper-->
+
+	{block scripts}
+	<script src="{$basePath}/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="{$basePath}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="{$basePath}/js/subpage-load.js"></script>
+	<script src="//nette.github.io/resources/js/netteForms.min.js"></script>
+	{/block}
+</body>
+</html>

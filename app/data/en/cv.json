@@ -1,0 +1,149 @@
+{
+    "name": "Ajla Džeković",
+    "position": "Software Engineer",
+    "date_of_birth": "02-06-1995",
+    "place_of_birth": "",
+    "address": "Skender-begova 17, Belgrade, Serbia",
+    "description": [
+        "A highly motivated software engineering student looking to get new experiences throughout all kinds of different projects and adventures and build my skills. Strong vision, enthusiasm and an unquenchable thirst to achieve a successful outcome for anything that I put my mind on. Demonstrated strong mastery of team motivation, project management and software engineering."
+    ],
+    "contacts": [
+        {
+            "type": "Phone",
+            "contact": "+381 63 504595"
+        },
+        {
+            "type": "Email",
+            "contact": "dzekovic.ajla@gmail.com"
+        }
+    ],
+    "jobs": [
+        {
+            "company": "LunaBot",
+            "position": "Lead Developer",
+            "period": "May 2016 - Current",
+            "description": "Discord general purpose bot, writted in Python using Discord.py library. "
+        },
+        {
+            "company": "Metropolitan University",
+            "position": "Software Developer",
+            "period": "October 2016 - Current",
+            "description": "Working in a developmet center of Metropolitan University as a software developer for an application for creating eLearning content for university purposes."
+        },
+        {
+            "company": "SkyLoggy",
+            "position": "Software Engineer/Web Developer",
+            "period": "November 2015 - April 2016",
+            "description": "SKYloggy is a platform for keeping records of skydiving jumps as well as the first worldwide social network for all the lovers of this sport."
+        }
+    ],
+    "education": [
+        {
+            "period": "2010 - 2010",
+            "school": "First Technical School, Kraguejvac, Serbia",
+            "finished_with": "Computer Science"
+        },
+        {
+            "period": "2014 - ",
+            "school": "Metropolitan University, Belgrade, Serbia",
+            "finished_with": "Software Engineering"
+        }
+    ],
+    "skills": [
+        {
+            "group": "Languages",
+            "items": [
+                {
+                    "skill": "Serbian",
+                    "level": "Expert",
+                    "description": "Native language"
+                },
+                {
+                    "skill": "English (spoken)",
+                    "level": "Expert",
+                    "description": ""
+                },
+                {
+                    "skill": "English (written)",
+                    "level": "Expert",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "group": "Programming",
+            "items": [
+                {
+                    "skill": "Python",
+                    "level": "Expert",
+                    "description": "Python 3.5, Discord.py"
+                },
+                {
+                    "skill": "Java",
+                    "level": "Advanced",
+                    "description": "Java SE, Spring, Spring Boot"
+                },
+                {
+                    "skill": "Software Architecture",
+                    "level": "Expert",
+                    "description": "Software architecture, documentation and project development."
+                },
+                {
+                    "skill": "Non-SQL",
+                    "level": "Intermediate",
+                    "description": "Mongo, fIREBASE"
+                },
+                                {
+                    "skill": "Angular",
+                    "level": "Advanced",
+                    "description": "AngularJS, Angular 2"
+                },
+                {
+                    "skill": "HTML/HTML5",
+                    "level": "Advanced",
+                    "description": "Responsive designs, Bootstrap, Semantics"
+                },
+                {
+                    "skill": "CSS/CSS3",
+                    "level": "Advanced",
+                    "description": "Media queries, LESS, SCSS, Bootstrap"
+                }
+            ]
+        },
+        {
+            "group": "Other",
+            "items": [
+                {
+                    "skill": "Spaceships",
+                    "level": "Expert",
+                    "description": "Ask anyone."
+                },
+                {
+                    "skill": "Video Games",
+                    "level": "Expert",
+                    "description": "Cheers, love. The cavalry's here!"
+                },
+                {
+                    "skill": "Trainin' Dragons",
+                    "level": "Intermediate",
+                    "description": "It gets scary sometimes."
+                },
+                {
+                    "skill": "Discord Bots",
+                    "level": "Intermediate",
+                    "description": "A little obsession with bots. All is good."
+                }
+            ]
+        },
+        {
+            "group":"Driving",
+            "items": [
+                {
+                    "skill": "Driving Licence B",
+                    "level": "Expert",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
