@@ -8,6 +8,7 @@ body {
   font-family: Alice;
   background-color: #1F1F1F;
   font-weight: 300;
+  background-image: url('../img/bg.jpg') !important;
 }
 
 .avatar {
@@ -88,7 +89,7 @@ h3 {
   font-size: 20px ;
 }
 h4 {
-  font-size: 16px ;
+  font-size: 18px ;
 }
 h5 {
   font-size: 15px;
