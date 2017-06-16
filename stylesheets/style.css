@@ -5,7 +5,7 @@
 /* Borders and Spacing */
 body {
   display: none;
-  font-family: Marvel;
+  font-family: Alice;
   background-color: #1F1F1F;
   font-weight: 300;
 }
@@ -66,7 +66,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: Marvel;
+  font-family: Alice;
   font-weight: 400;
   color: #000;
   line-height: 100%;
@@ -76,7 +76,7 @@ h1 {
   line-height: 50px;
   padding-top: 30px;
   font-weight: 700;
-  font-family: Marvel;
+  font-family: Alice;
   text-align: left;
   letter-spacing: 1px;
 }
@@ -102,7 +102,7 @@ p {
   margin: 0px;
 }
 .welcome {
-  font-family: Marvel;
+  font-family: Alice;
   font-size: 15px;
   text-indent: 0px;
   line-height: 30px;
