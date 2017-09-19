@@ -8,7 +8,7 @@ body {
   font-family: Alice;
   background-color: #1F1F1F;
   font-weight: 300;
-  background-image: url('../img/bg.jpg') !important;
+  background-image: url('../img/bg.png') !important;
 }
 
 .avatar {
