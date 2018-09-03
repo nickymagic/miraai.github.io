@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
   <head>
     <meta charset="utf-8">
     <title>Nikola Božić</title>
@@ -9,7 +9,7 @@
 	<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
 	<link href="stylesheets/style.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alice" />
-    
+
     <noscript>
     <style type="text/css">
      body {
@@ -17,7 +17,7 @@
      }
     </style>
     </noscript>
-	
+
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
@@ -31,7 +31,7 @@
 				<div class="title span7">
 					<img class="avatar" src="img/avatar.jpg" title="That`s me!" alt="My Profile"/>
 					<h1>Nikola Božić</h1>
-					<h2>(Web) Developer</h2>
+					<h2>Mainly Java and React Native Developer</h2>
 				</div>
 				<div class="social offset1 span4">
 					<ul>
@@ -40,9 +40,10 @@
 						<li><i class="icon-phone"></i> (+381) 064 182 00 99</li>
 						<li>
 							<a href="http://github.com/nickymagic" target="_blank"><i class="icon-github" ></i></a>
+              <a href="https://www.linkedin.com/in/nikola-bozic-163954152/" target="_blank"><i class="icon-linkedin" ></i></a>
 						</li>
 					</ul>
-				</div>	
+				</div>
 			</header>
 
 			<article class="row-fluid">
@@ -50,7 +51,9 @@
 					<h3>Summary</h3>
 				</header>
 				<div class="span9 ">
-					<p class="welcome"> Web developer with expertise in wide variety of fields. Most of my experience came from developing backend applications. However I am also used to work in frontend frameworks and database design. Besides my programming skills, my biggest skill is to always seek for new technologies and ways to implement them in existing projects. <br>
+					<p class="welcome"> Developer with expertise in wide variety of fields. My backend experience came from developing Spring Boot applications, and
+             frontend experience from React-Native/Angular frameworks. I am also used to work with both relational and non relational databases.
+             Besides my programming skills, my biggest skill is to always seek for new technologies and ways to implement them in existing projects. <br>
 				</div>
 			</article>
 
@@ -62,18 +65,19 @@
 					<div class="row-fluid skills">
 						<ul class="span4">
 							<li><h4>Programming</h4></li>
+              <li><strong>Java / Spring Boot(MVC, Hibernate, JPA...)</strong></li>
+              <li><strong>Javascript / React-Native, Angular</strong></li>
 							<li><strong>PHP / SuiteCRM</strong></li>
 							<li><strong>Bash</strong></li>
-							<li><strong>Javascript / Angular</strong></li>
-							<li><strong>Java / Spring Boot</strong></li>
-							<li><strong>Groovy</strong></li>
-							<li><strong>HTML / CSS</strong></li>
+							<li><strong>C</strong></li>
+              <li><strong>HTML, CSS / Bootstrap</strong></li>
 						</ul>
             <ul class="span4">
 							<li><h4>Databases</h4></li>
+              <li><strong>MongoDB</strong>
 							<li><strong>(My)SQL</strong>
-							<li><strong>MongoDB</strong>
 							<li><strong>Redis</strong>
+              <li><strong>RealmJS</strong>
 						</ul>
 						<ul class="span4">
 							<li><h4>Languages</h4></li>
@@ -99,20 +103,33 @@
 				<h5>2013 - 2017</h5>
 			</div>
 		</article>
-	    
+
 	    <article class="row-fluid">
 	        <header class="span3">
 	          <h3>Work Experience</h3>
 	        </header>
 	        <div class="span9">
 		  <h4>Upwork</h4>
-		  <h5>React Native(Mobile) developer</h5>
+		  <h5>React Native (Mobile) developer</h5>
 		  <h5>March 2018 - Present</h5>
-		  <p>React Native projects: CoinATMRadar app.(Android and IOS)</p>		
+		  <p>React Native projects: CoinATMRadar app. (Android and IOS). <br>
+        Development of aplication that displays cryptocurrency exchange machines around the globe. Notable technologies and libraries used : Redux, React-Native maps, RealmJS, clustering algorithms...
+      </p>
 		  <h4>Netcast</h4>
 	          <h5>(Java) Web Developer</h5>
 	          <h5>October 2015 - December 2017</h5>
-	          <p>Firstly, I developed CRM software from an open source solution SuiteCRM. The development mainly included working in PHP and SQL. <br> Later, I was working on designing and implementing various web applications in Spring Boot(Backend) and Angular(Frontend) frameworks. Our biggest project had microservice architecture, where I designed and created many of those microservices. <br>     </p>		
+	          <p>My work here mostly included designing and implementing various web applications in Spring Boot(Backend) and Angular(Frontend) frameworks. <br>
+              The main project I worked on was software for managing virtual machines that had microservice architecture and was consisted of many autonomous Spring Boot applications(microservices). <br>
+              Microservices I created were : <br> </p>
+              <ul>
+                <li>Mail sending microservice. With backup and recovery from fails. Used by all applications in the system to send emails. Uses MongoDB  </li>
+                <li>Virtual machine monitoring microservice. Gathers and stores various usage data from virtual machines for later statistics. Uses MongoDB  </li>
+                <li>User microservice. Manages all kinds of data related to user accounts, from password recovery to permissions. Uses SQL </li>
+                <li>Template microservice. Generates dynamic html templates written in groovy language. </li>
+              </ul> <br>
+            <p>Occasionally, I was developing applications for small and medium sized companies, that were used for managing/digitalizing their everyday business. <br>
+              Architecture of every such application was similar, with Spring Boot in the backend and Angular in the frontend.
+            </p>
 	        </div>
       	</article>
 
@@ -124,13 +141,13 @@
 	          	<p>I would like to learn more about docker and continuous integration. Generally I am interested in technology below application layer. </p>
 	        </div>
       	</article>
-			
+
 
 		<!-- Footer -->
 		<footer>
-			&copy; 2017 Nikola Božić
+			&copy; 2018 Nikola Božić
 			 | <a href="#" onclick="javascript:window.print();">Print</a> | <a href="#top">To top <i class="icon-arrow-up"></i></a>
-			
+
 		</footer>
 	</section>
 
